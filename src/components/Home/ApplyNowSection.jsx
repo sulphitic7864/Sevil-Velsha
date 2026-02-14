@@ -49,12 +49,12 @@ export default function ApplyNowSection() {
           transition={{ delay: 0.3 }}
           className=" mt-5 flex justify-center"
         >
-          <button className="group flex items-center md:gap-3 gap-1 border-b border-gray-300 pb-2 uppercase tracking-widest text-[#1A1A1B] font-bold  md:text-sm text-[10px] hover:border-[#5B7C99] transition">
-            <a href="mailto:sevilvay@gmail.com" className="text-[#1A1A1B] no-underline">Apply for Voice Authority Intensive</a>
+          <a href="mailto:sevilvay@gmail.com" className="group flex items-center md:gap-3 gap-1 border-b border-gray-300 pb-2 uppercase tracking-widest text-[#1A1A1B] font-bold  md:text-sm text-[10px] hover:border-[#5B7C99] transition">
+            Apply for Voice Authority Intensive
             <span className="flex h-6 w-6 items-center justify-center rounded-full border border-gray-400 group-hover:border-[#5B7C99] transition">
               <FiArrowUpRight className="text-xs" />
             </span>
-          </button>
+          </a>
         </motion.div>
 
         <p className=" mt-5 text-[10px] font-bold uppercase tracking-widest text-[#B0B0B0]">
