@@ -49,7 +49,9 @@ export default function ApplyNowSection() {
           transition={{ delay: 0.3 }}
           className=" mt-5 flex justify-center"
         >
-          <a href="mailto:sevilvay@gmail.com" className="group flex items-center md:gap-3 gap-1 border-b border-gray-300 pb-2 uppercase tracking-widest text-[#1A1A1B] font-bold  md:text-sm text-[10px] hover:border-[#5B7C99] transition">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sevilvay@gmail.com&su=Voice%20Authority%20Intensive%20Application&body=Hi,%20I%20would%20like%20to%20apply."
+  target="_blank"
+  rel="noopener noreferrer" className="group flex items-center md:gap-3 gap-1 border-b border-gray-300 pb-2 uppercase tracking-widest text-[#1A1A1B] font-bold  md:text-sm text-[10px] hover:border-[#5B7C99] transition">
             Apply for Voice Authority Intensive
             <span className="flex h-6 w-6 items-center justify-center rounded-full border border-gray-400 group-hover:border-[#5B7C99] transition">
               <FiArrowUpRight className="text-xs" />
@@ -61,6 +63,42 @@ export default function ApplyNowSection() {
           No automated systems. Every application reviewed by Sevil personally.
         </p>
       </div>
+      <form className="max-w-xl mx-auto space-y-5 mt-10">
+  <div>
+    <input
+      type="text"
+      placeholder="Your Name"
+      required
+      className="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#5B7C99] transition"
+    />
+  </div>
+
+  <div>
+    <input
+      type="email"
+      placeholder="Your Email"
+      required
+      className="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#5B7C99] transition"
+    />
+  </div>
+
+  <div>
+    <textarea
+      placeholder="Your Message"
+      rows="5"
+      required
+      className="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#5B7C99] transition resize-none"
+    ></textarea>
+  </div>
+
+  <button
+    type="submit"
+    className="w-full bg-[#5B7C99] text-white py-3 rounded-xl font-semibold hover:opacity-90 transition"
+  >
+    Send Message
+  </button>
+</form>
+
     </section>
   );
 }
