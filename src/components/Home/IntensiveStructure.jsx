@@ -70,7 +70,7 @@ export default function IntensiveStructure() {
             </p>
 
             <button className="md:mt-12 mt-7 w-full bg-[#5B7C99] shadow-2xl  text-white md:p-8 p-5 md:text-sm text-xs tracking-widest uppercase rounded-md hover:opacity-90 transition">
-              Apply for Voice Authority Intensive
+             <a href="mailto:sevilvay@gmail.com" className="text-white no-underline">Apply for Voice Authority Intensive</a>
             </button>
 
             <div className="mt-6 flex justify-between text-[10px] text-[#B0B0B0] font-bold uppercase tracking-wider">

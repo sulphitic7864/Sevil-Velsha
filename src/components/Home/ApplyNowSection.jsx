@@ -50,7 +50,7 @@ export default function ApplyNowSection() {
           className=" mt-5 flex justify-center"
         >
           <button className="group flex items-center md:gap-3 gap-1 border-b border-gray-300 pb-2 uppercase tracking-widest text-[#1A1A1B] font-bold  md:text-sm text-[10px] hover:border-[#5B7C99] transition">
-            Apply for Voice Authority Intensive
+            <a href="mailto:sevilvay@gmail.com" className="text-[#1A1A1B] no-underline">Apply for Voice Authority Intensive</a>
             <span className="flex h-6 w-6 items-center justify-center rounded-full border border-gray-400 group-hover:border-[#5B7C99] transition">
               <FiArrowUpRight className="text-xs" />
             </span>
